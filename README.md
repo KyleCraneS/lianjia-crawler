@@ -98,3 +98,7 @@ python scripts/lj_crawl_v5.py --in 输出/ershoufang_urls_sitemap.csv --out 输�
 - `.tmp/lj_accounts/` 里是账号登录凭据（Cookie），**不要外传**，已写进 `.gitignore`
 - 模型里的 `.pkl` 文件用 Python pickle 加载，只用本仓库自带的或你自己训练的，**不要换成来路不明的 pkl 文件**
 - 换城市只要改 `LJ_CITY`；`lj_config.py` 里的 `DISTRICT_SLUG`（区县 → 拼音代码）是可选的，只有旧版 `lj_collect_urls.py` 必须填
+
+## 许可证
+
+[MIT](LICENSE)。代码可以自由使用、修改和分发，但需保留版权声明；作者不对使用后果承担任何责任。上面的免责声明同样适用。
