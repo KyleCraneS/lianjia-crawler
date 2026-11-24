@@ -1,0 +1,12 @@
+# 运行状态：Cookie、账号池、断点、日志（含登录凭据，绝不上传）
+.tmp/
+# 采集结果
+输出/
+*.csv
+*.xlsx
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env

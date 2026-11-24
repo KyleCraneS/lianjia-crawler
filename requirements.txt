@@ -1,0 +1,14 @@
+# 采集主流程
+curl_cffi>=0.6
+selenium>=4.10
+websocket-client>=1.6
+openpyxl>=3.1
+# 验证码识别（ONNX 推理）
+onnxruntime>=1.16
+opencv-python>=4.8
+numpy>=1.24
+scipy>=1.10
+pillow>=10.0
+# 仅旧版脚本 lj_collect_urls.py 需要
+requests>=2.31
+# 可选：重新训练模型才需要（torch / ultralytics / paddlepaddle），日常运行不用装
